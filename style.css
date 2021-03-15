@@ -1,0 +1,129 @@
+body {
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: 1366px	700px;
+}
+.sidenav a.active{
+background-color: black;
+}
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+    color: white;
+    font-family: sans-serif;
+    background-color:rgb(255,0,0);opacity:0.6;
+}
+
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration:none;
+    border-radius: 10px solid white;
+    font-size: 25px;
+    color: white;
+    display: block;
+    transition: 0.3s;
+    font-family: fantasy;
+
+}
+
+.sidenav a:hover {
+    color: GreenYellow ;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 10px;
+    font-size: 36px;
+    margin-left: 80px;
+    color: white;
+}
+.sidenav .closebtn:hover{
+  color: GreenYellow;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+p.istoric{
+  font-size:4vw;
+  text-align: center;
+  color: white;
+  font-family: fantasy;
+}
+p.ex2{
+  color:white;
+  text-decoration: underline;
+  font-size: 25px;
+  font-family: Impact, Charcoal, sans-serif
+}
+p.ex1 {
+    border: 1px solid black;
+    outline-style:hidden;
+    outline-color: black;
+    color: white;
+    background-color: #8B0000;
+
+}
+div.ex3 {
+    border: 1px solid black;
+    outline-style:hidden;
+    outline-color: black;
+    color: white;
+    background-color: #8B0000;
+
+}
+div.op{
+  border: 1px solid black;
+  outline-style:hidden;
+  outline-color: black;
+  color: white;
+  background-color: #8B0000;
+}* {
+    box-sizing: border-box;
+}
+
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+    position:relative;
+
+}
+
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+.text-block {
+    position: absolute;
+    bottom: 15px;
+    left: 15px;
+    font-family: Times, Charcoal, sans-serif;
+    background-color: black, opacity;
+    color: red;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    background-color: #8B0000;
+    color:white;
+}
+th, td {
+    padding: 5px;
+}
+th {
+    text-align: left;
+}
